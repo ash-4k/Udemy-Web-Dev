@@ -8,7 +8,7 @@ import { fileURLToPath } from "url";
 import bodyParser from 'body-parser'
 
 const app = express()
-const port = 3001
+const port = 3000
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 app.use(bodyParser.urlencoded({extended:true}))
